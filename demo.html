@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Salamaua Bay Resort</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-image: url('resort.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height:100vh;
+        }
+
+        /* Dark overlay */
+        .overlay{
+            width:100%;
+            height:100vh;
+            background:rgba(0,0,0,0.5);
+        }
+
+        /* Navigation Bar */
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 60px;
+        }
+
+        .logo{
+            color:white;
+            font-size:32px;
+            font-weight:bold;
+        }
+
+        nav ul{
+            list-style:none;
+            display:flex;
+        }
+
+        nav ul li{
+            margin-left:25px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav ul li a:hover{
+            color:gold;
+        }
+
+        /* Hero Section */
+        .hero{
+            height:80vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            color:white;
+        }
+
+        .hero h1{
+            font-size:70px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:24px;
+            margin-bottom:30px;
+        }
+
+        .hero button{
+            padding:15px 35px;
+            font-size:18px;
+            border:none;
+            border-radius:5px;
+            background:gold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .hero button:hover{
+            background:white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay">
+
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                Salamaua Bay Resort
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Cover Section -->
+        <div class="hero">
+
+            <h1>Discover Paradise</h1>
+
+            <p>
+                Experience the beauty of the sea, nature, and luxury at Salamaua Bay Resort
+            </p>
+
+            <button>Explore Now</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
